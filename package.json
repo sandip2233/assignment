@@ -6,7 +6,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "node server.js",
     "deploy": "gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

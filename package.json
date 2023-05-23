@@ -1,3 +1,9 @@
+"homepage": "https://dsandip2233.github.io/Assignment.io",
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+},
+
 {
   "name": "assignment",
   "version": "1.0.0",
